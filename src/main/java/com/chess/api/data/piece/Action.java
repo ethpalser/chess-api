@@ -1,8 +1,10 @@
 package com.chess.api.data.piece;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @AllArgsConstructor
+@Getter
 public class Action {
 
     private final Piece piece;

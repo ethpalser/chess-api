@@ -1,0 +1,13 @@
+package com.chess.api.view.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
+public class UserCreateRequest {
+
+    private final String username;
+    private final String password;
+
+}
